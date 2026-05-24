@@ -21,3 +21,6 @@ let employee = {
 
 console.log(employee.company);
 console.log(typeof 100, typeof "QA", typeof false);
+
+let b = null;
+console.log(typeof b);

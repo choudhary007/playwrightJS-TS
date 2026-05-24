@@ -24,3 +24,12 @@ numss.push(6);
 for (let num of numss) {
     console.log(num);
 }
+
+
+let nums = [1, 2, 3, 4];
+
+let result = nums
+    .filter(n => n % 2 === 0)
+    .map(n => n * 10);
+
+console.log(result);

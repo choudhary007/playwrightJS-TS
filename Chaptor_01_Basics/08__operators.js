@@ -45,7 +45,28 @@ switch (browser) {
         break;
 }
 
-console.log(Boolean(" "));
-console.log(Boolean(""));
-console.log(Boolean(0));
-console.log(Boolean(100));
+console.log(Boolean(" ")); //true
+console.log(Boolean("")); // false
+console.log(Boolean(0)); // false
+console.log(Boolean(2)); //true
+
+console.log(typeof (NaN));
+
+let score = 90; score = "pass";
+console.log(typeof (score));
+
+console.log(a);
+let a = 10;
+
+greet();
+function greet() { console.log("Hi"); }
+
+sayHi();
+const sayHi = function () { console.log("Hi"); };
+
+let count = count + 1;
+
+
+console.log(a); // reference error because of temporal dead zone
+var a = 10;
+console.log(a);
